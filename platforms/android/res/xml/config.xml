@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ca.edumedia.m.show0017.shopping" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <splash src="www/img/splach-screen.png" />
+    <name>show0017-shopping</name>
+    <description>
+        Shopping app that helps users to track items to buy vs items that have been picked.
+    </description>
+    <author email="show0017@algonquinlive.com" href="http://cordova.io">
+        Wael Showair
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon density="mdpi" platform="android" src="www/img/icon-mdpi-launcher.png" />
+    <icon density="hdpi" platform="android" src="www/img/icon-hdpi-launcher.png" />
+    <icon density="xhdpi" platform="android" src="www/img/icon-xhdpi-launcher.png" />
+    <icon density="xxhdpi" platform="android" src="www/img/icon-xxhdpi-launcher.png" />
+    <icon density="xxxhdpi" platform="android" src="www/img/icon-xxxhdpi-launcher.png" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="5000" />
+</widget>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ca.edumedia.m.show0017.shopping" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>show0017-shopping</name>
+    <description>
+        Shopping app that helps users to track items to buy vs items that have been picked.
+    </description>
+    <author email="show0017@algonquinlive.com" href="http://cordova.io">
+        Wael Showair
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+<!--    App Launcher icons for Android platform.
+        Original source for app icon is: https://openclipart.org/detail/cart-small-by-martins.bruvelis
+        It is labled for reuse without any restrictions. -->
+    <icon src="www/img/icon-mdpi-launcher.png" platform="android" density="mdpi"/>
+    <icon src="www/img/icon-hdpi-launcher.png" platform="android" density="hdpi"/>
+    <icon src="www/img/icon-xhdpi-launcher.png" platform="android" density="xhdpi"/>
+    <icon src="www/img/icon-xxhdpi-launcher.png" platform="android" density="xxhdpi"/>
+    <icon src="www/img/icon-xxxhdpi-launcher.png" platform="android" density="xxxhdpi"/>
+
+<!--    Splash screen -->
+<platform name="android">
+    <splash src="www/img/splach-screen.png" />
+
+</platform>
+<preference name="SplashScreen" value="screen" />
+<preference name="SplashScreenDelay" value="5000" />
+</widget>
