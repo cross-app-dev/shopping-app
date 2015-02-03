@@ -19,7 +19,7 @@ It supports current features:
 - To Move an item from one list to another: Press the checkbox button that is located next to that item.
 - To completely delete an item: Press the remove button that is located at the end of that item.
 
-# Software implementaion:
+## Software implementaion:
 There are two js objects:
 **1- utilities**: Which provides some generic functionalities like getting current device height or forming listviews for a given list.
 ```javascript
